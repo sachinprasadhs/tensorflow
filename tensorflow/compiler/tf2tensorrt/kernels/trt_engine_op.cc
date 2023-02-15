@@ -66,6 +66,7 @@ using ::nvinfer1::IRuntime;
   LOG_FIRST_N(WARNING, 5) << "TF-TRT Warning: "
 
 // Allocates device memory for an execution context to execute a TensorRT
+// DO NOT MERGE CHANGE
 // engine and records the relevant information for deallocating the memory when
 // the engine finishes execution.
 class ContextDeviceMemory {
